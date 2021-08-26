@@ -982,8 +982,8 @@ module.exports = handle = (client, Client) => {
                 case 'list':
  	                 const mediaMsg = await client.prepareMessageMedia(await getBuffer(configs.imgUrl), 'imageMessage')
                      const buttonMessage = {
-                           contentText: `Hai kak *${data.pushname},* Semoga harimu menyenangkan\n\n*Follow NG*\nhttps://noizygram.com/hariyadin\n*Website*\nhttp://hariyadin.xyz`,
-                           footerText: `LeLa Bot | Recode By @${6282279601471}`,
+                           contentText: `Hai kak *${data.pushname},* saya adalah Cyz Botz yang siap membantu kakak dalam membuat sticker dan lainnya`,
+                           footerText: `Cyz Botz`,
                                 "contextInfo": {
 									  mentionedJid: [configs.ownerList[0]],
                                       participant: sender,
@@ -994,21 +994,21 @@ module.exports = handle = (client, Client) => {
                                      {
                                        buttonId: `${data.prefix}listmsg`,
                                        buttonText: {
-                                          displayText: "📒 MENU"
+                                          displayText: "MENU"
                                         },
                                          "type": "RESPONSE"
                                      },
                                      {
                                        buttonId: `${data.prefix}owner`,
                                        buttonText: {
-                                          displayText: "👤 OWNER"
+                                          displayText: "OWNER"
                                         },
                                          "type": "RESPONSE"
                                      },
                                      {
                                        buttonId: `${data.prefix}infobot`,
                                        buttonText: {
-                                          displayText: "📄 SOURCE CODE"
+                                          displayText: "INFO"
                                         },
                                          "type": "RESPONSE"
                                      },
